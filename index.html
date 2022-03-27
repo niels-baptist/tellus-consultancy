@@ -7,60 +7,280 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="small.css">
-    <link rel="stylesheet" href="large.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./assets/earth-whitebg.jpg" type="image/x-icon">
     <title>Tellus Consultancy</title>
 </head>
 <body>
+      <!-- navbar -->
+      <div class="container-fluid nav">
+        <nav class="navbar navbar-expand-lg navbar-light m-3">
+            <a class="navbar-brand" href="#">Tellus Consultancy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Over Tellus</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Diensten</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Veelgestelde vragen</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00cba9" fill-opacity="1" d="M0,224L48,208C96,192,192,160,288,133.3C384,107,480,85,576,106.7C672,128,768,192,864,186.7C960,181,1056,107,1152,80C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#00a287;"></path>
+      </svg>
     <div class="parent">
-        <!-- navbar -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Tellus</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                </div>
-            </nav>
-        </div>
-
-
         <!-- body content -->
         <div class="container">
-            <h1>Welkom bij Tellus</h1>
+            <div class="fullheight">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <img class="rounded fade-in pf" src="./assets/koen-pf-removebg-preview.png" alt="Zaakvoerder Koen Bouche">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h1>Welkom bij Tellus Consultancy</h1>
+                        <hr>
+                        <h2 class="text-center h2">Ik ben <span class="bold accentcolour">Koen</span>,
+                        Leuk je te ontmoeten!</h2>
+                    </div>
+                </div>
+
+                <div class="padding-element"></div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="h2">
+                            Over Tellus
+                        </h2>
+                        <p class="pl-4 pr-4"><span class="bold accentcolour">Tellus Consultancy B.V.</span> is een eenmansvennootschap
+                            gespecialiseerd in <span class="bold accentcolour">financiële dienstverlening</span>. Wat is 
+                            financieel advies? Voor een vermogenbeheerder is de definitie 
+                            volledig anders dan voor een boekhouder. Voor mij is het bedrijven adviseren, stimuleren en 
+                            uitdagen, met als doel de vennootschap, of het project, sterker te maken. 
+                            Mijn sterkte zit dus vooral in mijn financiële achtergrond en mijn algemene kennis. Ik ben dus 
+                            geen techneut of specialist (tenzij het kredietfinanciering betreft), maar help bedrijven hun
+                            financiële planning te optimaliseren, op korte en lange termijn. 
+                        </p>
+                        <p class="text-center">Dit houdt in:
+                            <ul>
+                                <li>Verduidelijken en kwantificeren van strategieën </li>
+                                <li>Kasstromen mee in kaart helpen brengen (discounted cash flow modelling)</li>
+                                <li>Adviseren optimale financieringsstructuur </li>
+                                <li>Indien gewenst, functioneren als intermediair naar derde partijen toe</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <h2 class="h2">
+                            Waar sta ik voor?
+                        </h2>
+                        <p>Na 20 jaar bij KBC Bank wou ik me nog meer toeleggen op wat ik gewoon het liefste doe: advies geven en 
+                            zaken helpen realiseren! Dit zowel via woord (ik geef nu eenmaal graag mijn mening) als daad (jawel, 
+                            ik ben zo’n excel-nerd die graag zaken in een spreadsheetje giet of nog erger, er een powerpoint van maakt)!
+                            Mijn verleden als bedrijfsbankier gaf me de mogelijkheid veel soorten bedrijven te leren kennen, van 
+                            startende eenpersoonszaken over projectfinancieringen naar multinationals, vaak in de verschillende fases 
+                            van hun bestaan. Elk van deze bedrijven en fases hebben specifieke noden, waarbij vooral maatwerk en inleving van belang zijn.
+                        </p>
+                        <button id="BtnIntro" class="btn btn-accentcolour m-3" onclick="ShowHideMoreInfoDiv()"> Lees meer </button>
+                        <div id="moreinfoIntro">
+                            <ul>
+                                <li>Startende bedrijven hebben vaak nood aan toetsing en verfijning van ideeën, waarbij de omslag gemaakt moet worden 
+                                    van een idee naar een financierbare en haalbare planning. Hier focussen we vooral op kwantificeren en doorrekenen 
+                                    van werkingskosten en investeringen, om een solide basis te leggen voor verdere groei. Dit zowel om het eigen 
+                                    geïnvesteerde kapitaal te beschermen, als om mogelijkheden te bieden om externe financiering aan te trekken.</li>
+                                <li>Zelf vond ik het altijd fantastisch jonge ondernemers te begeleiden en te helpen projecten te lanceren, vooral 
+                                    omdat vaak de eerste investeringen vaak de lastigste zijn!
+                                </li>
+                                <li>Groeiende bedrijven met hun dynamische omgeving en onuitputtelijk optimisme ervaren soms ook groeipijnen, waarbij 
+                                    het van belang is de olifant niet in 1 keer in je mond te stoppen, maar hem hap voor hap te verorberen 
+                                    (sorry voor de mensen die zich hier gekwetst voelen; ik doel enkel op het spreekwoord natuurlijk). Bij dit soort
+                                    bedrijven is het belangrijk mee te helpen prioriteiten te bepalen, waarbij ook gekeken moet worden of korte 
+                                    termijn hyper-groei op lange termijn houdbaar is. Dit zowel voor de aandeelhouders (verhogen of verwateren?), 
+                                    externe financiers (kunnen of willen ze volgen?) de genomen risico’s (elk risico heeft zijn prijs, maar is de
+                                    prijs gerechtvaardigd?) of nieuwe opportuniteiten. 
+                                </li>
+                                <li>Voor mij was het altijd een leuke uitdaging dit soort bedrijven uit te dagen en hun plannen te helpen versterken! 
+                                    Soms houdt dat ook in veiligheden in te bouwen en om te wijzen op onvoorziene risico’s. Maar altijd gericht op 
+                                    het einddoel en geënt op de identiteit van het bedrijf.
+                                </li>
+                                <li>Mature bedrijven, bestaan die eigenlijk? In theorie wel, maar elk bedrijf weet wel beter dan op zijn lauweren 
+                                    te rusten! Indien niet is de volgende fase waarschijnlijk al ingezet. Het komt er dus op aan wat goed is verder
+                                    uit te bouwen en te beschermen, waarbij er plannen gemaakt dienen te worden om een nieuwe groeifase aan te vatten.
+                                    Dat kan door eigen ontwikkeling (binnen of buiten het bedrijf), of door het overslaan van de startfase via een
+                                    overname. Vooral bij het zich opnieuw heruitvinden kunnen bedrijven steun gebruiken, zeker als het gaat over
+                                    overnames. De bruid kleedt zich natuurlijk zo mooi mogelijk op, haar ouders (bankiers, consultants) zullen
+                                    vooral de goede eigenschappen in de verf zetten (meerdere lagen zelfs!), maar het komt er op aan de juiste
+                                    bruidsschat te bepalen. Je wil niet te maken hebben met de vloek van de winnaar!
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padding-element"></div>
+
+            <div class="fullheight">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="h2">Mijn Specialisaties</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 p-5">
+                        <h3>Groene energie</h3>
+                        <img class="w-75 d-block m-auto" src="./assets/undraw_wind_turbine_x-2-k4.svg" alt="Wind turbines">
+                        <p class="mt-5">Zon & wind, batterij, warmtewisselaars, … I love it! Maar van de financiële kant. 
+                            Ik kan meespreken over yields, omvormers en energiecurves, maar vraag me niet ze te berekenen. 
+                            Mijn kant is er voor te zorgen dat een investeringsbeslissing kan genomen worden.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 p-5">
+                        <h3>Projectfinanciering en effectiseringen</h3>
+                        <img class="w-75 d-block m-auto" src="./assets/undraw_goals_re_lu76.svg" alt="Circulaire grafiek">
+                        <p class="mt-5">SPV, non-recourse, DSCR, DSRF, junior-senior-tranching,… Yep, my cup of tea! Maar toch altijd in 
+                            het groter verhaal: het middel moet het doel dienen! 
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 p-5">
+                        <h3>Retail: food & non-food</h3>
+                        <img class="w-75 d-block m-auto" src="./assets/undraw_shopping_app_flsj.svg" alt="Shoppende klant">
+                        <p class="mt-5">Misschien wat de rare eend in de bijt, maar ik had nu eenmaal veel retailklanten. Die wonderlijke, dynamische
+                           maar ook gevaarlijk gesatureerde wereld is me altijd blijven boeien! Hier zie ik mijn rol meer als klankbord 
+                           rond het testen van strategieën, zonder specifieke productkennis.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 p-5">
+                        <h3>Financieringstechnieken en bankdiensten</h3>
+                        <img class="w-75 d-block m-auto" src="./assets/undraw_savings_re_eq4w.svg" alt="Spaarvarken">
+                        <p class="mt-5">
+                            Na 20 jaar bij een bank te hebben gewerkt en ook als investeringsmanager aan de andere kant, heb ik  al behoorlijk 
+                            wat financieringen in elkaar gestoken. Het belangrijkste blijft maatwerk, afgestemd op de noden van het bedrijf: 
+                            wat is het doel en hoe bereiken we het? Ook bij vragen over andere zaken (KYC, hedging, 
+                            betaalstructuren) help ik graag de lijnen uitzetten.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padding-element"></div>
+
+            <div class="fullheight">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="h2">Veelgestelde vragen</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Voor welke opdrachten sta ik paraat?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Ik ben geïnteresseerd mee te werken aan kleine en grote projecten, zolang ze maar stroken met volgend lijstje:
+                                            <ul>
+                                                <li>We moeten een <span class="bold accentcolour">klik</span> hebben en elkaar vertrouwen</li>
+                                                <li>Ik moet voelen dat ik <span class="bold accentcolour">toegevoegde waarde</span> kan leveren. Dat is zowel voor jou als voor mij belangrijk!</li>
+                                                <li>De agenda moet ook wat meewillen</li>
+                                                <li>Er mogen geen conflicterende belangen zijn met andere opdrachten.</li>
+                                            </ul>
+                                            Voor de rest heb ik altijd graag een uitdaging, betreed ik graag nieuwe paden en ben ik niet bang me vuil te maken!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Hoe kan je mij het best contacteren?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Het eerste contact regel ik het liefst via <a class="bold accentcolour" href="mailto:consultancy.tellus@gmail.com">email</a>!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Waarvoor staat de naam Tellus Consultancy?
+                                    </button>
+                                </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                <span class="bold accentcolour">Tellus</span> (Latijn voor "aarde") is een Oud-Romeinse beschermgodin van de aardbodem. Ik ben nu eenmaal graag bezig mee de planeet groener 
+                                                en duurzamer te maken. Of het nu technieken (zonnepanelen, windmolens, batterijen, …) betreft of verduurzamen van strategieën, ik wil het 
+                                                gewoon graag helpen realiseren. Er is maar 1 aardbol en ruimtereizen is niet aan mij besteed…
+                                            </li>
+                                            <li>
+                                                <span class="bold accentcolour">Tell us!</span> Heb je een probleem en denk je dat ik kan helpen, contacteer mij! Laten we kennis delen! Dynamisch discussiëren (en leren) 
+                                                is altijd tof en geeft energie als het open en met wederzijds respect gebeurd. 
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padding-element"></div>
+
+            <div id="contact">
+                <h2 class="h2">Contact</h2>
+                <p class="m-auto w-75">Als er nog iets is waar je vragen bij hebt, aarzel dan niet om mij te contacteren via 
+                                       onderstaand formulier of via mijn 
+                                       <a class="bold accentcolour" href="mailto:consultancy.tellus@gmail.com">Mailadres</a>!</p> <br>
+                <form method="post" action="https://formspree.io/f/myyodkan" class="d-block m-auto w-75">
+                    <div class="form-group">
+                        <label for="Email">E-mailadres</label>
+                        <input name="email" type="email" class="form-control" id="Email" required placeholder="mailadres@voorbeeld.com">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="message">Jouw vraag</label>
+                        <textarea name="message" placeholder="Schrijf hier je vraag" class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <br>
+                    <button class="btn btn-accentcolour">Verzenden</button>
+                </form>
+            </div>
         </div>
-
-
+    </div>
 
         <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-muted">
-            <section class="d-flex justify-content-center p-4 border-bottom">
-                <div>
-                    <a href="https://www.linkedin.com/in/kbouche/" target="blank" class="me-12 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-            </section>
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <div class="row mt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#00cba9" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#00a287;"></path>
+        </svg>
+        <div class="container-fluid footer">
+            <footer class="text-center text-lg-start">
+                <div class="container text-center text-md-start">
+                    <div class="row">
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 class="text-uppercase fw-bold mb-4">
                                 <i class="fa-solid fa-earth-europe me-3"></i>Tellus Consultancy B.V.
@@ -77,16 +297,23 @@
                                 <i class="fas fa-envelope me-3"></i>
                                 <a href="mailto:consultancy.tellus@gmail.com">consultancy.tellus@gmail.com</a>
                             </p>
+                            <p>
+                                <i class="fab fa-linkedin me-3"></i>
+                                <a href="https://www.linkedin.com/in/kbouche/" target="blank">Koen Bouche - LinkedIn</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2022 
-                <a class="text-reset fw-bold" href="https://www.linkedin.com/company/wapitiservices">Wapiti</a>
-            </div>
-        </footer>
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2022 
+                    <a class="bold" href="https://www.linkedin.com/company/wapitiservices">Wapiti</a>
+                </div>
+            </footer>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- online -->
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
 </body>
 </html>

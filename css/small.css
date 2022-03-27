@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.parent{
+    min-height: 100vh;
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+}
+
+.h2{
+    margin: 50px;
+    text-align: center;
+}
+
+h3{
+    margin: 25px;
+    text-align: center;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fullheight{
+    min-height: 100vh;
+}
+
+.oneandhalfheight{
+    min-height: 150vh;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav, .nav, .footer, footer a{
+    background-color: #00cba9;
+    color: #001411;
+    text-decoration: none;
+}
+
+
+.footer, footer{
+    padding-top: 20px;
+}
+
+svg{
+    margin-top: -1px; 
+    margin-bottom: -1px; 
+}
+
+.pf{
+    border-bottom: #00cba9 5px solid;
+}
+
+hr{
+    color: #00cba9;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.accentcolour{
+    color: #00cba9;
+}
+
+.btn-accentcolour{
+    background-color: #00cba9;
+    color: #fff;
+}
+
+.padding-element{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li::before{
+    content: "\2022";
+    color: #00cba9;
+    margin: 0 10px 0 0;
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
