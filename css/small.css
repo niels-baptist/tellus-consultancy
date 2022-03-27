@@ -9,6 +9,10 @@ body{
     
 }
 
+.navbar .navbar-header .navbar-toggle {
+    padding: 6px;
+ }
+
 .parent{
     min-height: 100vh;
 }
