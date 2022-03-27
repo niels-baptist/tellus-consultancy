@@ -79,6 +79,10 @@ hr{
     font-weight: bold;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .accentcolour{
     color: #00cba9;
 }
@@ -95,6 +99,11 @@ hr{
 
 .greendots{
     list-style: none;
+}
+
+.greendots li{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .greendots li::before{
