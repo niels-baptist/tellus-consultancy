@@ -91,7 +91,7 @@ hr{
     list-style: none;
 }
 
-.greendots::before{
+.greendots li::before{
     content: "\2022";
     color: #00cba9;
     margin: 0 10px 0 0;
