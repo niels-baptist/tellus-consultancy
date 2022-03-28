@@ -6,7 +6,6 @@
 body{
     background: #f2f2f2;
     font-family: 'Lato', sans-serif;
-    
 }
 
 .navbar .navbar-header .navbar-toggle {
@@ -110,6 +109,11 @@ hr{
     content: "\2022";
     color: #00cba9;
     margin: 0 10px 0 0;
+}
+
+.contry_flag{
+    width: 20px;
+    height: 15px;
 }
 
 .fade-in {
